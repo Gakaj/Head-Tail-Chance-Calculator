@@ -1,4 +1,5 @@
 import random, string, time
+print("Welcome to a simple password generator")
 print("Auto length is 10 characters")
 
 
@@ -10,22 +11,26 @@ def generator_without_length(chars):
     password = "".join(random.choice(chars) for i in range(10))
     return password
 
+def generator_with_length(chars): #Only change is ...in range(length)
+    length = int(input("Enter length of random password: "))
+    password = "".join(random.choice(chars) for i in range(length))
+    return password
+
 
 
 
 while True: # Validation
-    user_input = input("\rGenerate with length, yes or no: ").strip().upper()
+    user_input = input("\rGenerate with length, yes/no: ").strip().upper()
 
     if user_input == "YES":
-        length_choice = True
-        break
+        passwordYL = generator_with_length(chars)
+        print(passwordYL)
     elif user_input == "NO":
-        length_choice = False
-        break
+        passwordNL = generator_without_length(chars)
+        print(passwordNL)
     else:
-        print("Invalid input. Please enter YES or NO.")
+        print("\nInvalid input. Please enter YES or NO.")
+
+            
 
 
-if length_choice:
-    passwordWL = generator_without_length(chars)
-    print(passwordWL)
