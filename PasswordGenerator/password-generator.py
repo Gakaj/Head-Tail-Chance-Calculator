@@ -20,7 +20,7 @@ def generator_with_length(chars): #Only change is ...in range(length)
 
 
 while True: # Validation
-    user_input = input("\rGenerate with length, yes/no: ").strip().upper()
+    user_input = input("\rGenerate with length, yes/no/escape: ").strip().upper()
 
     if user_input == "YES":
         passwordYL = generator_with_length(chars)
@@ -28,6 +28,8 @@ while True: # Validation
     elif user_input == "NO":
         passwordNL = generator_without_length(chars)
         print(passwordNL)
+    elif user_input == "ESCAPE":
+        exit()
     else:
         print("\nInvalid input. Please enter YES or NO.")
 
