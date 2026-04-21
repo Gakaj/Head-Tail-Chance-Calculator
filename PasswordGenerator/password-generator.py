@@ -1,6 +1,6 @@
 import random, string, time
 print("Auto length is 10 characters")
-lengthChoice = False
+
 
 
 punct = "*&^%$£@;:~#]{]}¬`!?<>\/_" #Set of punctuation that can be generated.
@@ -11,5 +11,11 @@ def generator_without_length(chars):
     return password
 
 
+passwordWL = generator_without_length(chars)
 
+while True:
+    try:
+        lengthChoice = bool(input("Generate with length input: True/False: "))
+    except ValueError:
+        print("Invalid Input, try again")
 
