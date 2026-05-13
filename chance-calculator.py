@@ -59,7 +59,11 @@ def start(run, tosses, rollWA, attempts):
   if run == "Y":
     attempts = 1
     tosses = int(input("Input number of coin tosses: "))
-    rollWA(tosses, attempts, average_head, average_tail)
+    if tosses % 2 == 0:
+      rollWA(tosses, attempts, average_head, average_tail)
+    else:
+      print(ValueError("Must be divisible by 2"))
+      start(run, tosses, rollWA, attempts)
   elif run == "N":
     print("--Program Ended--")
   elif run == "R":
