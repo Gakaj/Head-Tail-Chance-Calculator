@@ -10,3 +10,4 @@ Now imagine you flip it 1000 times, again how many tries until after 1000 flips 
 
 This program demonstrates and simulates this within the restrictions of a computers "random" bias.
 
+![Demo](images/)
