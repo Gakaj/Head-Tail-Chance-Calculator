@@ -45,7 +45,17 @@ The roll function:
 6. When head = tail, calculate the average head and tails by totalling and then dividing by attempts
 7. Ask user to continue with different amount of tosses, repeat with same or end
 
-##  
+##  Chalenges 
+
+- Handling total amount of heads and tails to calculate average, local vs global scope variable
+- Attempts implementation - repeating function instead of just ending with one attempt - made the project more interesting
+
+## Future Improvements
+
+- Using iteration instead of recursion when repeating for a new attempt to get equal head and tails
+- Improving time space complexity
+- Input sanitation and further validation
+- More clear output - cleaner text could use carriage return instead of a new line
 
 
 
