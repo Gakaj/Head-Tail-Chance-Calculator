@@ -1,6 +1,6 @@
-<<<<<<< HEAD
+
 # Head-Tail-Chance-Calculator
-=======
+
 # Coin Flipping Simulator
 
 **This is an educational python project created by an A Level Student interested in Computer Science**
@@ -34,4 +34,4 @@ python chance-calculator.py
 Press for link to ![Demo](HeadTailChanceCalculator/images/) of examplar outputs and inputs.
 
 
->>>>>>> 17d6dfeb11c02dc31d658ed040678d3724afc3f5
+
