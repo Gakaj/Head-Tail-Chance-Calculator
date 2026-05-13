@@ -30,4 +30,4 @@ python chance-calculator.py
 ## Screenshots and Demo for running in Windows command prompt.
 Press for link to ![Demo](images/) of examplar outputs and inputs.
 
-### ![Running Program](Images/start) 
+## (images/start.png)
