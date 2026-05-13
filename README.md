@@ -28,6 +28,6 @@ python chance-calculator.py
 
 
 ## Screenshots and Demo for running in Windows command prompt.
-Press for link to ![Demo](images/start.png) of examplar outputs and inputs.
+Press for link to ![Demo](HeadTailChanceCalculator/images/start.png) of examplar outputs and inputs.
 
 
