@@ -10,4 +10,20 @@ Now imagine you flip it 1000 times, again how many tries until after 1000 flips 
 
 This program demonstrates and simulates this within the restrictions of a computers "random" bias.
 
-![Demo](images/)
+# How to install and run
+
+```bash
+git clone https://github.com/Gakaj/Head-Tail-Chance-Calculator.git
+```
+Navigate to directory, cd Head-Tail-Chance-Calculator.git  
+
+## Running the application:
+
+Simply run:
+```bash
+python chance-calculator.py
+```
+
+
+## Screenshots and Demo for running in Windows command prompt.
+Press for link to ![Demo](images/) of examplar outputs and inputs.
