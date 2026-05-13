@@ -15,11 +15,13 @@ This program demonstrates and simulates this within the restrictions of a comput
 ```bash
 git clone https://github.com/Gakaj/Head-Tail-Chance-Calculator.git
 ```
-Navigate to directory, cd Head-Tail-Chance-Calculator.git  
-
+Navigate to directory, 
+```bash
+cd Head-Tail-Chance-Calculator.git  
+```
 ## Running the application:
 
-Simply run:
+Once in directory simply run:
 ```bash
 python chance-calculator.py
 ```
