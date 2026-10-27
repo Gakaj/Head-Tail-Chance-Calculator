@@ -28,7 +28,7 @@ python chance-calculator.py
 
 
 ## Screenshots and Demo for running in Windows command prompt.
-Press for link to ![Demo](HeadTailChanceCalculator/images/) of examplar outputs and inputs.
+Press for link to ![Demo](HeadTailChanceCalculator/images/) of exemplar outputs and inputs.
 
 ## How it works:
 
@@ -38,11 +38,11 @@ The roll function:
 3. Iterate this until number of tosses reaches user input
 4. If heads = tails, finish and output
 5. If not add 1 to attempts and then repeat, recursively calling the function
-   - > Issue arises with recurion depth, could alter function to iteration instead of recursively call - time space complextity
-6. When head = tail, calculate the average head and tails by totalling and then dividing by attempts
+   - > Issue arises with recursion depth, could alter function to iteration instead of recursively call - time space complexity
+6. When head = tail, calculate the average head and tails by totaling and then dividing by attempts
 7. Ask user to continue with different amount of tosses, repeat with same or end
 
-##  Chalenges 
+##  Challenges 
 
 - Handling total amount of heads and tails to calculate average, local vs global scope variable
 - Attempts implementation - repeating function instead of just ending with one attempt - made the project more interesting
